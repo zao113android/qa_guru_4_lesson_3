@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
-public class findCodeJunit5Test {
+public class FindJunit5Test {
 
     @Test
-    void Junit5ExistsInSelenideWiki() {
-
+    void junit5ExistsInSelenideWiki() {
         // Open Github
         // Type Selenide in search
         // Find Selenide/Selenide
