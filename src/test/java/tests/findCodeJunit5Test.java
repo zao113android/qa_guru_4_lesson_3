@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class findCodeJunit5Test {
 
     @Test
-    void junit5EsixtsInSelenideWiki() {
+    void junit5ExistsInSelenideWiki() {
 
         // Open Github
         // Type Selenide in search
